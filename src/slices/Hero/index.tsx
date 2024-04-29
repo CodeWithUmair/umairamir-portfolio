@@ -1,8 +1,10 @@
 "use client";
 import { useEffect, useRef } from "react";
+import Bounded from "@/app/components/Bounded";
+
 import { Content, KeyTextField } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
-import Bounded from "@/app/components/Bounded";
+
 import { Shapes } from "./Shapes";
 import gsap from "gsap";
 
