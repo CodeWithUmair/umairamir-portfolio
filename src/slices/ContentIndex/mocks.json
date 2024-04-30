@@ -5,8 +5,13 @@
 		"primary": {
 			"heading": {
 				"__TYPE__": "FieldContent",
-				"value": "cause",
+				"value": "good",
 				"type": "Text"
+			},
+			"content_type": {
+				"__TYPE__": "FieldContent",
+				"value": "Blog",
+				"type": "Select"
 			},
 			"description": {
 				"__TYPE__": "StructuredTextContent",
@@ -14,33 +19,26 @@
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "Do anim laboris aliquip aliquip aute cillum sit ex in elit non laborum."
+							"text": "Pariatur Lorem veniam labore consequat tempor magna incididunt. Ipsum ullamco aliqua aute proident id exercitation sunt nisi."
 						}
 					}
 				]
 			},
-			"button_text": {
+			"view_more_text": {
 				"__TYPE__": "FieldContent",
-				"value": "thou",
+				"value": "section",
 				"type": "Text"
 			},
-			"button_link": {
-				"__TYPE__": "LinkContent",
-				"value": {
-					"__TYPE__": "ExternalLink",
-					"url": "https://slicemachine.dev"
-				}
-			},
-			"avatar": {
+			"fallback_item_image": {
 				"origin": {
 					"id": "main",
-					"url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef",
-					"width": 4000,
-					"height": 6000
+					"url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+					"width": 12288,
+					"height": 16384
 				},
-				"url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef",
-				"width": 4000,
-				"height": 6000,
+				"url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+				"width": 12288,
+				"height": 16384,
 				"edit": {
 					"zoom": 1,
 					"crop": {
