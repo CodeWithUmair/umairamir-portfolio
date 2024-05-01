@@ -22,6 +22,8 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
+// Comment for git pushing
+
 export default function RootLayout({
   children,
 }: {
