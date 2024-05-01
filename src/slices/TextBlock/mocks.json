@@ -2,7 +2,19 @@
 	{
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
-		"primary": {},
+		"primary": {
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ex aute proident consequat anim anim cupidatat ipsum irure tempor nostrud enim elit nostrud. Incididunt Lorem pariatur sint reprehenderit."
+						}
+					}
+				]
+			}
+		},
 		"items": []
 	}
 ]
