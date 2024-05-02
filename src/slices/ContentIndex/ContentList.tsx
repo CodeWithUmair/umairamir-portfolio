@@ -11,9 +11,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 type ContentListProps = {
   items: Content.BlogPostDocument[] | Content.ProjectDocument[];
-  contentType: Content.BlogPostIndexSlice["primary"]["content_type"];
-  fallbackItemImage: Content.BlogPostIndexSlice["primary"]["fallback_item_image"];
-  viewMoreText: Content.BlogPostIndexSlice["primary"]["view_more_text"];
+  contentType: Content.ContentIndexSlice["primary"]["content_type"];
+  fallbackItemImage: Content.ContentIndexSlice["primary"]["fallback_item_image"];
+  viewMoreText: Content.ContentIndexSlice["primary"]["view_more_text"];
 };
 
 export default function ContentList({
@@ -142,7 +142,9 @@ export default function ContentList({
         {items.map((post, index) => (
           <li
             key={index}
-            ref={(el) => (itemsRef.current[index] = el)}
+            ref={(el) => {
+              if (el) itemsRef.current[index] = el;
+            }}
             onMouseEnter={() => onMouseEnter(index)}
             className="list-item opacity-0"
           >

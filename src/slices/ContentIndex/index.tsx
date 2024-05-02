@@ -7,8 +7,7 @@ import Heading from "@/app/components/Heading";
 /**
  * Props for `BlogPostIndex`.
  */
-export type BlogPostIndexProps =
-  SliceComponentProps<Content.BlogPostIndexSlice>;
+export type BlogPostIndexProps = SliceComponentProps<Content.ContentIndexSlice>;
 
 /**
  * Component for "BlogPostIndex" Slices.
