@@ -133,6 +133,16 @@ export default function ContentList({
     });
   }, [contentImages]);
 
+  const orderedItems = items.sort((a, b) => {
+    const dateA = new Date(a.last_publication_date).getTime();
+    const dateB = new Date(b.last_publication_date).getTime();
+
+    return dateB - dateA; // Sort in descending order based on publication date
+  });
+
+  // console.log("orderedItems: ", orderedItems);
+  // console.log("Items: ", items);
+
   return (
     <>
       <ul
