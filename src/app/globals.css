@@ -10,3 +10,9 @@
     hsla(222, 0%, 0%, 0) 100%
   );
 }
+
+@media screen and (max-width: 640px) {
+  article div div h1 {
+    font-size: 42px !important;
+  }
+}
