@@ -74,7 +74,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
       ref={component}
-      className="lg:py-0"
+      className="xl:py-0"
     >
       <div className="grid min-h-[60vh] grid-cols-1 items-center md:grid-cols-2">
         <Shapes />
